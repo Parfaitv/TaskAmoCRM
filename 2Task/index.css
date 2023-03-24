@@ -1,0 +1,319 @@
+.Desktop {
+    position: relative;
+    width: 1440px;
+    height: 980px;
+    background: #0E1014;
+}
+.headerD{
+    position: absolute;
+    width: 1140px;
+    height: 73px;
+    left: 150px;
+    top: 46px;
+}
+.menu {
+    font-family: 'Inter';
+    font-style: normal;
+    position: absolute;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    width: 503px;
+    height: 19px;
+    left: 192px;
+    top: 15px;
+    color: #E4E5EA;
+}
+.service {
+    position: absolute;
+    width: 54px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+}
+.widget {
+    position: absolute;
+    width: 74px;
+    height: 19px;
+    left: 84px;
+    top: 0px;
+}
+.integration{
+    position: absolute;
+    width: 95px;
+    height: 19px;
+    left: 188px;
+    top: 0px;
+}
+
+.case {
+    position: absolute;
+    width: 51px;
+    height: 19px;
+    left: 313px;
+    top: 0px;    
+}
+
+.certificate {
+    position: absolute;
+    width: 109px;
+    height: 19px;
+    left: 394px;
+    top: 0px;
+}
+.logo_velbex {
+    position: absolute;
+    width: 140px;
+    height: 24px;
+    left: 0px;
+    top: 11px;
+}
+
+.part1{
+    position: absolute;
+    width: 35px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+.vector1{
+    position: absolute;
+    left: 0%;
+    right: -0.15%;
+    top: 0%;
+    bottom: 0%;
+}
+.part2{
+    position: absolute;
+    width: 97px;
+    height: 15px;
+    left: 43px;
+    top: 5px;
+}
+.vector2{
+    position: absolute;
+    left: 0.17%;
+    right: 0.99%;
+    top: 0%;
+    bottom: 5.74%;
+}
+.logo_text {
+    position: absolute;
+    width: 165px;
+    height: 24px;
+    left: 0px;
+    top: 45px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #E4E5EA;
+}
+.number {
+    position: absolute;
+    width: 143px;
+    height: 19px;
+    left: 832px;
+    top: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+
+    color: #E4E5EA;
+}
+.telegram {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1022px;
+    top: 14px;
+}
+.teleg{
+    position: absolute;
+    left: 8.33%;
+    right: 8.27%;
+    top: 15.03%;
+    bottom: 15.03%;
+}
+.viber{
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    left: 1072px;
+    top: 14px;
+}
+.vib{
+    position: absolute;
+    width: 16px;
+    height: 15.2px;
+    left: 2px;
+    top: 2px;
+}
+.whatsapp{
+    position: absolute;
+    width: 20px;
+    height: 59px;
+    left: 1122px;
+    top: 13px;
+}
+.whats{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    bottom: 10%;
+}
+.head{
+    position: absolute;
+    width: 362px;
+    height: 116px;
+    left: 147px;
+    top: 209px;
+    font-family: 'Inter';
+    font-style:normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #E4E5EA;
+}
+.welbex{
+    position: absolute;
+    width: 247px;
+    height: 58px;
+    left: 147px;
+    top: 325px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+
+
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.contrl {
+    position: absolute;
+    width: 275px;
+    height: 44px;
+    left: 148px;
+    top: 413px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #E4E5EA;
+}
+.freeCons{
+    position: absolute;
+    width: 291px;
+    height: 44px;
+    left: 999px;
+    top: 224px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+
+    color: #E4E5EA;
+}
+.rgbfree{
+    text-transform: uppercase;
+    background: linear-gradient(to right, #FCB045, #FD1D1D),
+    linear-gradient(0deg, #E4E5EA, #E4E5EA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.rgbcons{
+    text-transform: uppercase;
+    background: linear-gradient(170deg, #FCB045 36.99%, #FD1D1D 120%),
+    linear-gradient(0deg, #E4E5EA, #E4E5EA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.mainwidget{
+    position: absolute;
+    width: 101px;
+    height: 22px;
+    left: 1024px;
+    top: 308px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #E4E5EA;
+}
+.textWidget{
+    position: absolute;
+    width: 89px;
+    height: 40px;
+    left: 1036px;
+    top: 336px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #E4E5EA;
+}
+.mainDashbord{
+    position: absolute;
+    width: 120px;
+    height: 22px;
+    left: 1171px;
+    top: 308px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #E4E5EA;
+}
+.textDashbord{
+   position: absolute;
+   width: 135px;
+   height: 40px;
+   left: 1156px;
+   top: 336px;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   text-align: right;
+   color: #E4E5EA; 
+}
