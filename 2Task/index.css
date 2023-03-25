@@ -4,13 +4,31 @@
     height: 980px;
     background: #0E1014;
 }
-.headerD{
+
+.headerD {
     position: absolute;
     width: 1140px;
     height: 73px;
     left: 150px;
     top: 46px;
 }
+
+.footerDesktop {
+    position: absolute;
+    width: 1141px;
+    height: 315px;
+    left: 149px;
+    bottom: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #E4E5EA;
+}
+
 .menu {
     font-family: 'Inter';
     font-style: normal;
@@ -24,6 +42,7 @@
     top: 15px;
     color: #E4E5EA;
 }
+
 .service {
     position: absolute;
     width: 54px;
@@ -31,6 +50,7 @@
     left: 0px;
     top: 0px;
 }
+
 .widget {
     position: absolute;
     width: 74px;
@@ -38,20 +58,23 @@
     left: 84px;
     top: 0px;
 }
-.integration{
+
+.integration {
     position: absolute;
     width: 95px;
     height: 19px;
     left: 188px;
     top: 0px;
 }
+
 .case {
     position: absolute;
     width: 51px;
     height: 19px;
     left: 313px;
-    top: 0px;    
+    top: 0px;
 }
+
 .certificate {
     position: absolute;
     width: 109px;
@@ -59,6 +82,7 @@
     left: 394px;
     top: 0px;
 }
+
 .logo_velbex {
     position: absolute;
     width: 140px;
@@ -66,34 +90,39 @@
     left: 0px;
     top: 11px;
 }
-.part1{
+
+.part1 {
     position: absolute;
     width: 35px;
     height: 24px;
     left: 0px;
     top: 0px;
 }
-.vector1{
+
+.vector1 {
     position: absolute;
     left: 0%;
     right: -0.15%;
     top: 0%;
     bottom: 0%;
 }
-.part2{
+
+.part2 {
     position: absolute;
     width: 97px;
     height: 15px;
     left: 43px;
     top: 5px;
 }
-.vector2{
+
+.vector2 {
     position: absolute;
     left: 0.17%;
     right: 0.99%;
     top: 0%;
     bottom: 5.74%;
 }
+
 .logo_text {
     position: absolute;
     width: 165px;
@@ -109,6 +138,7 @@
 
     color: #E4E5EA;
 }
+
 .number {
     position: absolute;
     width: 143px;
@@ -125,6 +155,7 @@
 
     color: #E4E5EA;
 }
+
 .telegram {
     position: absolute;
     width: 20px;
@@ -132,55 +163,62 @@
     left: 1022px;
     top: 14px;
 }
-.teleg{
+
+.teleg {
     position: absolute;
     left: 8.33%;
     right: 8.27%;
     top: 15.03%;
     bottom: 15.03%;
 }
-.viber{
+
+.viber {
     position: absolute;
     width: 20px;
     height: 19px;
     left: 1072px;
     top: 14px;
 }
-.vib{
+
+.vib {
     position: absolute;
     width: 16px;
     height: 15.2px;
     left: 2px;
     top: 2px;
 }
-.whatsapp{
+
+.whatsapp {
     position: absolute;
     width: 20px;
     height: 59px;
     left: 1122px;
     top: 13px;
 }
-.whats{
+
+.whats {
     position: absolute;
     left: 10%;
     right: 10%;
     top: 10%;
     bottom: 10%;
 }
-.head{
+
+.head {
     position: absolute;
     width: 362px;
     height: 116px;
     left: 147px;
     top: 209px;
     font-family: 'Inter';
-    font-style:normal;
+    font-style: normal;
     font-weight: 400;
     font-size: 48px;
     line-height: 58px;
     color: #E4E5EA;
 }
-.welbex{
+
+.welbex {
     position: absolute;
     width: 247px;
     height: 58px;
@@ -200,6 +238,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
 .contrl {
     position: absolute;
     width: 275px;
@@ -215,7 +254,8 @@
 
     color: #E4E5EA;
 }
-.freeCons{
+
+.freeCons {
     position: absolute;
     width: 291px;
     height: 44px;
@@ -231,23 +271,26 @@
 
     color: #E4E5EA;
 }
-.rgbfree{
+
+.rgbfree {
     text-transform: uppercase;
     background: linear-gradient(to right, #FCB045, #FD1D1D),
-    linear-gradient(0deg, #E4E5EA, #E4E5EA);
+        linear-gradient(0deg, #E4E5EA, #E4E5EA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.rgbcons{
+
+.rgbcons {
     text-transform: uppercase;
     background: linear-gradient(170deg, #FCB045 36.99%, #FD1D1D 120%),
-    linear-gradient(0deg, #E4E5EA, #E4E5EA);
+        linear-gradient(0deg, #E4E5EA, #E4E5EA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.mainwidget{
+
+.mainwidget {
     position: absolute;
     width: 101px;
     height: 22px;
@@ -266,7 +309,8 @@
 
     color: #E4E5EA;
 }
-.textWidget{
+
+.textWidget {
     position: absolute;
     width: 89px;
     height: 40px;
@@ -281,7 +325,8 @@
     text-align: right;
     color: #E4E5EA;
 }
-.mainDashbord{
+
+.mainDashbord {
     position: absolute;
     width: 120px;
     height: 22px;
@@ -299,18 +344,389 @@
 
     color: #E4E5EA;
 }
-.textDashbord{
-   position: absolute;
-   width: 135px;
-   height: 40px;
-   left: 1156px;
-   top: 336px;
 
-   font-family: 'Montserrat';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 20px;
-   text-align: right;
-   color: #E4E5EA; 
+.textDashbord {
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    left: 1156px;
+    top: 336px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #E4E5EA;
+}
+
+.mainSkype {
+    position: absolute;
+    width: 134px;
+    height: 22px;
+    left: 992px;
+    top: 406px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: right;
+    white-space: nowrap;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #E4E5EA;
+}
+
+.textSkype {
+    position: absolute;
+    width: 164px;
+    height: 40px;
+    left: 961px;
+    top: 434px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+
+    color: #E4E5EA;
+}
+
+.mainuseday {
+    position: absolute;
+    width: 85px;
+    height: 22px;
+    left: 1206px;
+    top: 406px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: right;
+    white-space: nowrap;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #E4E5EA;
+}
+
+.textuseday {
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    left: 1161px;
+    top: 434px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+
+    color: #E4E5EA;
+}
+
+.mainButton {
+    position: absolute;
+    width: 262px;
+    height: 61px;
+    left: 1028px;
+    top: 535px;
+
+    background: #4077F3;
+}
+
+.textMainButton {
+    position: absolute;
+    width: 193px;
+    height: 19px;
+    left: 35px;
+    top: 21px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #E4E5EA;
+}
+
+.companyText {
+    position: absolute;
+    width: 106px;
+    height: 17px;
+    left: 0px;
+    top: 55px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #656566;
+}
+
+.companyPartnerProg {
+    position: absolute;
+    width: 195px;
+    height: 19px;
+    left: 0px;
+    top: 92px;
+}
+
+.companyJobs {
+    position: absolute;
+    width: 75px;
+    height: 19px;
+    left: 0px;
+    top: 121px;
+}
+
+.menuText {
+    position: absolute;
+    width: 49px;
+    height: 17px;
+    left: 293px;
+    top: 55px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #656566;
+}
+
+.menuCalcCost {
+    position: absolute;
+    width: 144px;
+    height: 19px;
+    left: 293px;
+    top: 92px;
+}
+
+.menuServices {
+    position: absolute;
+    width: 53px;
+    height: 19px;
+    left: 293px;
+    top: 121px;
+}
+
+.menuWidget {
+    position: absolute;
+    width: 73px;
+    height: 19px;
+    left: 293px;
+    top: 150px;
+}
+
+.menuIntegration {
+    position: absolute;
+    width: 94px;
+    height: 19px;
+    left: 293px;
+    top: 179px;
+}
+
+.menuClients {
+    position: absolute;
+    width: 115px;
+    height: 19px;
+    left: 293px;
+    top: 208px;
+}
+
+.menuCase {
+    position: absolute;
+    width: 50px;
+    height: 19px;
+    left: 489px;
+    top: 92px;
+}
+
+.menuLetter {
+    position: absolute;
+    width: 212px;
+    height: 19px;
+    left: 489px;
+    top: 121px;
+}
+
+.menuCertificate {
+    position: absolute;
+    width: 107px;
+    height: 19px;
+    left: 489px;
+    top: 150px;
+}
+
+.menuYoutube {
+    position: absolute;
+    width: 127px;
+    height: 19px;
+    left: 489px;
+    top: 179px;
+}
+
+.menuQuestionsAnswers {
+    position: absolute;
+    width: 120px;
+    height: 19px;
+    left: 489px;
+    top: 208px;
+}
+
+.contactsText {
+    position: absolute;
+    width: 86px;
+    height: 17px;
+    left: 1055px;
+    top: 55px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #656566;
+}
+
+.contactsNumber {
+    position: absolute;
+    width: 143px;
+    height: 19px;
+    left: 998px;
+    top: 92px;
+
+    font-weight: 500;
+    text-align: right;
+}
+
+.messenTelegram {
+    position: absolute;
+    left: 1061px;
+    top: 132px;
+    width: 20px;
+    height: 20px;
+}
+
+.messenViber {
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    top: 132px;
+    left: 1091px;
+}
+
+.messenWhatsapp {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 131px;
+    left: 1121px;
+}
+
+.contactsAddress {
+    position: absolute;
+    width: 277px;
+    height: 19px;
+    left: 864px;
+    top: 171px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+}
+
+.blockConfidentiality {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    text-align: right;
+}
+
+.confCopyright {
+    position: absolute;
+    width: 239px;
+    height: 15px;
+    left: 902px;
+    top: 260px;
+}
+
+.confPolitics {
+    position: absolute;
+    width: 202px;
+    height: 15px;
+    left: 939px;
+    top: 280px;
+    text-decoration-line: underline;
+}
+
+.purpleBall svg {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 868px;
+    top: 0px;
+
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+    filter: blur(5px);
+    backdrop-filter: blur(2px);
+}
+
+.light svg {
+    /* purple light */
+
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    left: 602px;
+    top: -154px;
+
+    background: #833AB4;
+    opacity: 0.5;
+    filter: blur(196px);
+
+}
+
+.redBall {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 519px;
+    top: 83px;
+
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
 }
