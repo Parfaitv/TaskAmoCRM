@@ -1,3 +1,7 @@
+body {
+    background: #1E1E1E;
+}
+
 .Desktop {
     position: relative;
     width: 1440px;
@@ -40,6 +44,12 @@
     height: 19px;
     left: 192px;
     top: 15px;
+    text-decoration: none;
+    color: #E4E5EA;
+}
+
+.menu a{
+    text-decoration: none;
     color: #E4E5EA;
 }
 
@@ -269,22 +279,27 @@
     line-height: 22px;
     text-align: right;
 
-    color: #E4E5EA;
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%),
+linear-gradient(0deg, #E4E5EA, #E4E5EA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: tex
 }
 
 .rgbfree {
     text-transform: uppercase;
-    background: linear-gradient(to right, #FCB045, #FD1D1D),
+    letter-spacing: 1px;
+    /*background: linear-gradient(90deg, #fd8d2f, #FD1D1D),
         linear-gradient(0deg, #E4E5EA, #E4E5EA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
+    background-clip: text; */
 }
 
-.rgbcons {
-    text-transform: uppercase;
-    background: linear-gradient(170deg, #FCB045 36.99%, #FD1D1D 120%),
-        linear-gradient(0deg, #E4E5EA, #E4E5EA);
+.only {
+    /* text-transform: uppercase; */
+    /* letter-spacing: 1.2px; */
+    background:linear-gradient(0deg, #E4E5EA, #E4E5EA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -464,6 +479,18 @@
     color: #E4E5EA;
 }
 
+.blockMenu a{
+    text-decoration: none;
+
+    color: #E4E5EA;
+}
+
+.blockCompany a{
+    text-decoration: none;
+
+    color: #E4E5EA;
+}
+
 .companyText {
     position: absolute;
     width: 106px;
@@ -486,6 +513,9 @@
     height: 19px;
     left: 0px;
     top: 92px;
+    text-decoration: none;
+
+    color: #E4E5EA;
 }
 
 .companyJobs {
@@ -657,6 +687,9 @@
     font-size: 16px;
     line-height: 19px;
     text-align: right;
+    text-decoration: none;
+
+    color: #E4E5EA;
 }
 
 .blockConfidentiality {
@@ -683,50 +716,47 @@
     height: 15px;
     left: 939px;
     top: 280px;
-    text-decoration-line: underline;
+    color: #E4E5EA;
 }
 
-.purpleBall svg {
+.purpleBalls img{
     position: absolute;
     width: 60px;
     height: 60px;
     left: 868px;
     top: 0px;
-
-    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%)
-        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
-    ;
-    box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
-    filter: blur(5px);
-    backdrop-filter: blur(2px);
 }
 
-.light svg {
-    /* purple light */
-
+.light img{
     position: absolute;
     width: 259px;
     height: 259px;
     left: 602px;
     top: -154px;
-
-    background: #833AB4;
-    opacity: 0.5;
-    filter: blur(196px);
-
 }
 
-.redBall {
+.redBall img{
     position: absolute;
     width: 83px;
     height: 83px;
     left: 519px;
     top: 83px;
+}
+.redligthBall img{
+    position: absolute;
+    width: 311px;
+    height: 311px;
+    left: -102px;
+    top: 251px;
+    background: #961A1A;
+    opacity: 0.5;
+    filter: blur(196px);
+}
 
-    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%)
-        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
-    ;
-    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
-    backdrop-filter: blur(2px);
-    /* Note: backdrop-filter has minimal browser support */
+.redsmallBall img{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 851px;
+    top: 547px;
 }
