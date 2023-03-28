@@ -733,6 +733,10 @@ linear-gradient(0deg, #E4E5EA, #E4E5EA);
     height: 259px;
     left: 602px;
     top: -154px;
+    
+    background: #833AB4;
+    opacity: 0.5;
+    filter: blur(196px);
 }
 
 .redBall img{
