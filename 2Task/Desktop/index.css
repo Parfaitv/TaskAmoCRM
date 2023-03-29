@@ -283,7 +283,7 @@ body {
 linear-gradient(0deg, #E4E5EA, #E4E5EA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: tex
+    background-clip: text;
 }
 
 .rgbfree {
@@ -764,3 +764,4 @@ linear-gradient(0deg, #E4E5EA, #E4E5EA);
     left: 851px;
     top: 547px;
 }
+
